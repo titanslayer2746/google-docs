@@ -9,8 +9,7 @@ const DocumentIdPage = ({ params }: DocumentIdPageProps) => {
     const { documentId } = params;
     
     return (
-        <div>
-            <p>Document ID: {documentId}</p>
+        <div className='min-h-screen bg-[#FAFBFD]'>
             <Editor/>
         </div>
     );
